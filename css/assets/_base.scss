@@ -1,0 +1,27 @@
+@use 'mixins' as *; //'as *' adds the module to the root namespace; no prefix is needed (removes any namespace).
+@use 'colors' as *;
+@use 'backgrounds' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,400&display=swap');
+
+//Base Structure
+html{
+    line-height: 1.5;
+    font-family: 'Red Hat Display' , sans-serif;
+}
+
+.banner-background{
+
+    background: #212025;
+
+    .banner-section{
+        max-width: 128rem;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        align-items: center;
+    }
+
+}
+
+

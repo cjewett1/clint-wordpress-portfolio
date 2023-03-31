@@ -1,0 +1,78 @@
+@use 'assets/colors';
+@use 'assets/mixins';
+
+footer {
+    width: 100%;
+}
+
+.page-id-6 .site-footer{
+    background: #1e1d22;
+}
+
+.site-footer{
+    padding-top: 5rem;
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-0.7rem;
+    min-height:10rem;
+    max-height:15rem;
+  }
+
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-9rem,0,0);
+    }
+    100% {
+      transform: translate3d(8.5rem,0,0);
+    }
+  }
+
+footer h3{
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+footer h3 a {
+    color: #a7a6ab;
+    text-decoration: none;
+}
+
+.footer-info svg{
+    height: 10rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer-info{
+    padding: 4rem 0rem 7rem 0rem;
+    background: #192E47;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 48rem) {
+    .waves {
+      height: 3.5rem;
+      min-height: 3.5rem;
+    }
+}

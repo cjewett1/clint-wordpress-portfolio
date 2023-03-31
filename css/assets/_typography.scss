@@ -1,0 +1,119 @@
+@use 'colors' as *;
+@use 'mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,400&display=swap');
+
+/* Typography
+--------------------------------------------- */
+html{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.8rem;
+}
+
+.banner-section h1 {
+	margin: -2rem 0rem;
+	line-height: 1.1;
+	position: relative;
+	padding: 2rem 0.5rem;
+}
+
+h1{
+	font-size: clamp(5rem, 8vw, 9.6rem);
+	color: #A7A6AB;
+	font-weight: 900;
+}
+
+.page-id-6 h1{
+	white-space: nowrap;
+}
+
+h2{
+	font-size: 36px;
+	color: #A7A6AB;
+	font-weight: 900;
+}
+
+.projects-headline{
+	text-align: center;
+	padding-top: 5rem;
+	padding: 2.5rem 2.5rem 0rem 2.5rem;
+}
+
+.projects-headline p {
+	color: #a7a6ab;
+}
+
+.project-flex-item a{
+	color: #a7a6ab;
+	text-decoration: none;
+}
+
+.banner-section p {
+	color: #A7A6AB;
+}
+
+.banner-section h1, .individual-project-flex-container h1 {
+	white-space: normal;
+}
+
+@include mixins.break(med){
+
+	.banner-section h2, .banner-section h1 ,  .individual-project-flex-container h1{
+		white-space: nowrap;
+	}
+
+
+
+}
+
+
+
+.banner-section h2, .banner-section p {
+	padding-left: 1rem;
+}
+
+ul.nav-menu {
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+ul.nav-menu a {
+	color: $off-white;
+}
+
+ul#primary-menu a {
+	color: #A7A6AB;
+	font-family: 'Red Hat Display', sans-serif;
+	font-style: normal;
+	font-size: 1.8rem;
+}
+
+    /* Span Element */
+
+    .rotating-text:before{
+        content: 'Web Designer.';
+        animation: word-switch 7s infinite;
+	
+    }
+
+	@media (max-width: 400px){
+		.rotating-text:before{
+			display: block;
+		} 
+	}
+
+    @keyframes word-switch {
+        0% {content: 'Full Stack Web Developer.'}
+
+        50% {content: 'Graphic Designer.'}
+
+        100% {content: 'Photographer.'}
+    }
+.individual-project-details p {
+	text-align: center;
+	width: 60ch;
+}

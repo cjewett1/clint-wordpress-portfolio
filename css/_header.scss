@@ -1,0 +1,104 @@
+@use 'assets/colors';
+@use 'assets/mixins';
+
+header {
+    background-color: #212025;
+    padding: 1.5rem;
+
+    .header-background {
+        display: flex;
+        justify-content: space-between;
+        max-width: 128rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+.menu-home-page-menu-container{
+    margin-top: 1rem;
+}
+
+ul.sub-menu{
+    padding-top: 1.7rem;
+}
+
+ul.sub-menu a{
+    border-bottom: 1px solid #a7a6ab;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+
+
+body .is-layout-flex{
+    flex-wrap: nowrap;
+}
+
+.widget{
+    margin: 0;
+}
+
+nav#site-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    align-items: center;
+}
+
+header svg {
+    height: 6rem;
+}
+
+@media (max-width:600px){
+    #primary-menu {
+        position: absolute;
+        background: #212025;
+        top: 12rem;
+        width: 70%;
+        z-index: 99999;
+        left: 1rem;
+        height: auto;
+    }
+
+    ul#primary-menu a {
+        color: #a7a6ab;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: normal;
+        font-size: 1.8rem;
+        margin: 3.5rem 1rem;
+        border-bottom: 1px solid #a7a6ab;
+    }
+
+
+
+    header svg {
+        height: 5rem;
+    }
+
+    .header-background{
+        display: flex;
+    }
+
+
+}
+
+button svg{
+    fill: #a7a6ab;
+}
+
+
+@media (min-width: 600px){
+
+    svg#Layer_1 {
+        visibility: visible;
+    }
+
+    #ul.primary-menu{
+        position: inherit;
+    }
+
+    
+}
+
+
+
