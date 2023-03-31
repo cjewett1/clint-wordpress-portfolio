@@ -1,7 +1,7 @@
 # Clinton's WordPress Portfolio Site
 
 ## Overview
-Welcome to the repo for my WordPress portfolio site! I wanted to use this readme as a space to explain some of the choices I made and why I made them. The site is still a work in progress that I am continually looking to improve over time and add content to it. It serves as more of an overall look at some of the projects I have done in school and on my own time. I do have a portfolio made with React that focuses more on my development projects, feel free to check that out as well! Ill link it [here](https://github.com/cjewett1/clints-react-portfolio)  That one is a more ambitious and needs a bit of work yet. 
+Welcome to the repo for my WordPress portfolio site! I wanted to use this readme as a space to explain some of the choices I made and why I made them. The site is still a work in progress that I am continually looking to improve over time and add content to it. It serves as more of an overall look at some of the projects I have done in school and on my own time. I do have a portfolio made with React that focuses more on my development projects, feel free to check that out as well! Ill link it <a href="https://github.com/cjewett1/clints-react-portfolio" target="_blank">here</a> That one is a more ambitious and needs a bit of work yet. 
 
 ## Why did I make this project? Why did I use WordPress?
 I created this site for a couple of reasons. I wanted an aesthetially pleasing website that I could add all of my projects to. The way its set up right now allows me to easily add new projects to the site. It features my color scheme and is a good representation of how I like to style things.
@@ -54,13 +54,14 @@ Far and away the biggest challenge was getting SASS to work with WordPress and a
 The second biggest issue was removing a lot of the unwanted styles that came with the underscores theme. There was a lot of stuff in there that I didn't like and I had to do some digging to remove these styles.
 
 ## Useful Links
- Check out [The Site](https://clinton-gorda.com/ "My portfolio site! Its live!")!
+Check out <a href="https://clinton-gorda.com" target="_blank">The Site!</a>
+
  
 ## Contact
 Feel free to [email me](mailto:clintondgorda@gmail.com) if you have any questions or comments about my project.
 
-You can find me [LinkedIn](https://www.linkedin.com/in/clintonjewett/)
+You can find me on <a href="https://www.linkedin.com/in/clintonjewett/" target="_blank">LinkedIn</a>
 
-You can also find me on Slack as [@clintonwebdev](https://clintssandbox.slack.com/team/U051WJSE588)
+You can also find me on Slack as <a href="https://clintssandbox.slack.com/team/U051WJSE588" target="_blank">@clintonwebdev</a>
 
-I'm always on Discord in some capacity, this probably the fastest way to reach me. Heres my username [clint(booma)#4826](https://discordapp.com/users/123456789012345678)
+I'm always on Discord in some capacity, this probably the fastest way to reach me. Heres my username <a href="https://discordapp.com/users/123456789012345678" target="_blank">clint(booma)#4826</a>
