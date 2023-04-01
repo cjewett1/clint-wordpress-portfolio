@@ -4,7 +4,7 @@
 Welcome to the repo for my WordPress portfolio site! I wanted to use this readme as a space to explain some of the choices I made and why I made them. The site is still a work in progress that I am continually looking to improve over time and add content to it. It serves as more of an overall look at some of the projects I have done in school and on my own time. I do have a portfolio made with React that focuses more on my development projects, feel free to check that out as well! Ill link it <a href="https://github.com/cjewett1/clints-react-portfolio" target="_blank">here</a> That one is a more ambitious and needs a bit of work yet. 
 
 ## Why did I make this project? Why did I use WordPress?
-I created this site for a couple of reasons. I wanted an aesthetially pleasing website that I could add all of my projects to. The way its set up right now allows me to easily add new projects to the site. It features my color scheme and is a good representation of how I like to style things.
+I created this site for a couple of reasons. I wanted an aesthetically pleasing website that I could add all of my projects to. The way its set up right now allows me to easily add new projects to the site. It features my color scheme and is a good representation of how I like to style things.
 
 I wanted to practice with WordPress as well. I took a WordPress course in the Fall of 2022, so i wanted to keep my skills with it fairly sharp. This ended up being a great idea as my capstone project for school ended up being done in WordPress. I feel fairly confident in my development abilities using this powerful CMS. Next up is attemping to create a headless CMS using Strapi and React.
 
