@@ -9,7 +9,6 @@
 get_header();
 ?>
 
-
 <div class="banner-background">
         <div id="bg"></div>
         <div class="banner-section">
@@ -28,8 +27,7 @@ get_header();
 </div>
 
         <section class="skills-section">
-                    <h2>Skills</h2>
-                
+            <h2>My Skill Set</h2>
             <div class="skills-items">
                 <div class="skill">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75"
@@ -53,13 +51,13 @@ get_header();
                     c0-0.3,0-0.8,0-1.2c0-14.1-1.1-27.9-3.3-41.4l0.2,1.5L750.6,208.2z"/>
                 </svg>
                 <p>
-                Though I am still learning, I feel that I have relatively strong development skills with WordPress. I have built numerous websites using this incredibly powerful CMS. I learn a ton of things every time I use it. With enough practice I feel I can really thrive as a WordPress Developer.
+               While I am still learning, I believe that I have developed strong skills in WordPress development. I have built numerous websites using this incredibly powerful content management system, and each project has taught me valuable lessons. With continued practice and dedication, I am confident that I can thrive as a WordPress Developer. The possibilities for innovation and creativity with this platform are endless, and I am excited to continue building my skills and contributing to its incredibly helpful community. I do plan on tackling a headless CMS project to further develop my skills.
                 </p>
                 </div>
                 <div class="skill">
                 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 594.92 594.92"><path d="M297.46,0C133.18,0,0,133.18,0,297.46s133.18,297.46,297.46,297.46,297.46-133.18,297.46-297.46S461.74,0,297.46,0Zm-96.66,336.12l-10,12.63-83.12-64.71,83.38-64.44,9.73,12.36-68.65,51.82,68.65,52.34Zm38.4,93.38h-19.46l110.74-237.78h19.73l-111,237.78Zm164.66-80.75l-9.73-12.36,68.65-51.82-68.65-52.34,10-12.63,83.12,64.71-83.38,64.44Z" style="fill:#212025;"/></svg>
                 <p>
-                    Throughout the Web Development and Design program I have done a number of coding projects and have really started to hone my skills as a developer. Though I have a long way to go, I am excited for where the future may take me in this industry and I hope to continue to develop my skills. I have used PHP, MySQL, JavaScript and C# on various projects.
+                    Throughout the Web Development and Design program at NAIT, I have done a number of coding projects and have really started to hone my skills as a developer. Though I have a long way to go, I am excited for where the future may take me in this industry. I am always eager to learn more. While I am fairly new to libraries like React and Next.js I have taken it upon myself to create many websites and apps with various languages and frameworks in order to learn, practice and ultimately challenge myself to become the best developer that I can be. These projects are highlighted on my <a href="https://github.com/cjewett1" target="_blank">GitHub</a> profile and on the projects page of this site.
                 </p>
                 </div>
                 <div class="skill">
@@ -85,7 +83,7 @@ get_header();
                     C211.8,150.1,231.6,146.8,251.5,146.3L251.5,146.3z"/>
                 </svg>
                 <p>
-                    Design is a big part of why I fell in love with this career path. I love creating things and playing around with the incredible tools offered within programs such as PhotoShop, Illustrator, InDesign and Figma. The possibilities are endless.
+                    I enjoy creating and experimenting with the fantastic tools available in programs such as PhotoShop, Illustrator, and Figma. The possibilities for creativity are limitless. While I do tend to favor the development side, I recognize the importance of possessing skills in both areas to facilitate effective communication and collaboration with designers. By having a deep understanding of design principles and techniques, as well as being able to develop sites, I am equipped to work with designers to create exceptional, user-friendly designs. This synergy ultimately leads to better products, greater satisfaction, and a more fulfilling career.
                 </p>
                 </div>
             </div>

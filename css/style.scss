@@ -117,7 +117,7 @@ table {
 
 .skills-section h2{
     text-align: center;
-    padding: 3rem;
+    padding-top: 3rem;
     color: colors.$dk-purple;
 }
 
@@ -428,17 +428,14 @@ svg#Layer_1{
 }
 
 .why-container-flex-item{
-    display: flex;
-    align-items: center;
     max-width: 128rem;
-    margin: 0 auto;
+    @include mixins.basic-flex-center
 }
 
 .why-container{
 	background: #f5f5f5;
-	display: flex;
-	align-items: center;
-	height: 35rem;
+    @include mixins.basic-flex-center;
+	height: auto;
 	text-align: center;
 	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
@@ -446,19 +443,23 @@ svg#Layer_1{
 .why-container-text{
 	max-width: 128rem;
 	margin: 0 auto;
+    p {
+            margin-bottom: 1.5rem;
+        }
 }
 
-.why-container-text p{
-	margin-bottom: 1.5rem;
+@media (max-width: 800px){
+        .interests-flex-item{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .interests-flex-item{
-    display: flex;
+    @include mixins.basic-flex-center;
     max-width: 128rem;
-    margin: 0 auto;
 	gap: 5rem;
 	padding: 2rem 2.5rem;
-    align-items: center;
 	box-shadow: rgb(0 0 0 / 15%) 0px 3px 3px 0px;
 }
 
@@ -496,11 +497,8 @@ figcaption{
 }
 
 .skills-svg-container {
-    display: flex;
-    margin: 0 auto;
+    @include mixins.basic-flex-center;
     gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 2.5rem;
 }
 
@@ -513,17 +511,12 @@ figcaption{
 }
 
 .php:hover, .html:hover, .javascript:hover, .react:hover, .adobe:hover{
-
     rotate: z 360deg;
-    
 }
 
 .skills-svg-container svg:hover{
     filter: drop-shadow(1px 1px 8px rgba(0, 0, 0, 0.7))
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Components
@@ -740,12 +733,10 @@ figcaption{
 
   .about-me {
     max-width: 128rem;
-    display: flex;
     text-align: center;
-    flex-direction: column;
-    margin: 0 auto;
-}
+    @include mixins.flex-center-column;
 
+}
 
   .page-id-146 img{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);

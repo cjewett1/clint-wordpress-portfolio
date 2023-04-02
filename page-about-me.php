@@ -21,16 +21,16 @@
     <div class="about-me-intro-flex-container">
         <div class="about-me-intro-container">
             <p>
-            My name is Clinton Gorda and I am currently in my last semester at NAIT in the DMIT - Web Development and Design program. I just want to share a little bit about myself regarding previous work experience and the skills I have gained over the years. If you have any questions, don't hesitate! I would love to answer them as best as I can.
+            My name is Clinton Gorda (Jewett is my legal name, I am in the process to changing it to Gorda, which is my married name 😄) and I am currently in my last semester at NAIT in the DMIT - Web Development and Design program. I just want to share a little bit about myself regarding previous work experience and the skills I have gained over the years. If you have any questions, don't hesitate! I would love to answer them as best as I can.
             </p>
 
             <p>
             Throughout my plumbing career, as an employee and a small business owner of 5 years, I have faced many unique situations and these experiences have given me a wealth of skills and knowledge that allow me to excel in any situation. Although the two industries are different, I believe that many of the skills are transferable and relevant to both fields of work. What I may lack in Web Design work experience, I make up for in my ability to analyze a client’s needs, respond to ever-changing situations and keep clients happy in the process. I am devoted to becoming the best Web Designer I can be.
             </p>
 
-            <a href="#">Link to my resume</a>
+            <a href="https://drive.google.com/file/d/1fO-yFbp0v9N1611nk4rxw1zoYp_w1jmg/view?usp=sharing" target="_blank">Link to my resume</a>
 
-            <a href="https://github.com/cjewett1" target="_blank" >Link to my GitHub</a>
+            <a href="https://github.com/cjewett1" target="_blank">Link to my GitHub</a>
 
             <div class="contact-icons">
                 <a href = "mailto: clintondgorda@gmail.com"> <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 285"><path d="M299.85,105c0-10.8-5.55-20.25-14.1-25.5L150,0,14.25,79.5C5.7,84.75,0,94.2,0,105V255c0,16.5,13.5,30,30,30h240c16.5,0,30-13.5,30-30l-.15-150Zm-30,0v.15l-119.85,74.85L30,105,150,34.8l119.85,70.2ZM30,140.1v114.9h240l-.15-114.45-119.85,74.85L30,140.1Z" style="fill-rule:evenodd;"/></svg></a>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="skills-container">
-        <p>The skills that I have gained throughout my time at NAIT and through various projects.</p>
+        <p>The skills that I have gained throughout my time at NAIT and through side various projects.</p>
 
         <div class="skills-svg-container">
             <div class="php">

@@ -123,7 +123,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: clamp(2.75rem, 2.5vw, 3.6rem);
   color: #A7A6AB;
   font-weight: 900;
 }
@@ -189,7 +189,7 @@ ul#primary-menu a {
 }
 @keyframes word-switch {
   0% {
-    content: "Web Developer.";
+    content: "Full Stack Web Developer.";
   }
   50% {
     content: "Graphic Designer.";
@@ -542,7 +542,7 @@ table {
 
 .skills-section h2 {
   text-align: center;
-  padding: 3rem;
+  padding-top: 3rem;
   color: #212025;
 }
 
@@ -820,17 +820,20 @@ svg#Layer_1 {
 }
 
 .why-container-flex-item {
-  display: flex;
-  align-items: center;
   max-width: 128rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 
 .why-container {
   background: #f5f5f5;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 35rem;
+  margin: 0 auto;
+  height: auto;
   text-align: center;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
@@ -839,18 +842,24 @@ svg#Layer_1 {
   max-width: 128rem;
   margin: 0 auto;
 }
-
 .why-container-text p {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 800px) {
+  .interests-flex-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .interests-flex-item {
   display: flex;
-  max-width: 128rem;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  max-width: 128rem;
   gap: 5rem;
   padding: 2rem 2.5rem;
-  align-items: center;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
@@ -889,10 +898,10 @@ figcaption {
 
 .skills-svg-container {
   display: flex;
-  margin: 0 auto;
-  gap: 1.5rem;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  gap: 1.5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -1109,9 +1118,11 @@ figcaption {
 
 .about-me {
   max-width: 128rem;
-  display: flex;
   text-align: center;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
