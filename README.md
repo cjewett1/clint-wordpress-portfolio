@@ -9,7 +9,7 @@ I created this site for a couple of reasons. I wanted an aesthetically pleasing 
 I wanted to practice with WordPress as well. I took a WordPress course in the Fall of 2022, so i wanted to keep my skills with it fairly sharp. This ended up being a great idea as my capstone project for school ended up being done in WordPress. I feel fairly confident in my development abilities using this powerful CMS. Next up is attemping to create a headless CMS using Strapi and React.
 
 ## Project Status
-The site is near completion. I have a few sections to add more written content to and some small things to optimize (mainly my scss files) but other than that I am fairly happy with the state of it. I will continue to work on this over time and update it.
+The site is near completion. There are some small things to optimize (mainly my scss files) but other than that I am fairly happy with the state of it. I will continue to work on this over time and update it.
 
 ## Code Examples
 
