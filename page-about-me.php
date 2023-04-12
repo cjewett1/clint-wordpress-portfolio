@@ -28,7 +28,7 @@
             Throughout my plumbing career, as an employee and a small business owner of 5 years, I have faced many unique situations and these experiences have given me a wealth of skills and knowledge that allow me to excel in any situation. Although the two industries are different, I believe that many of the skills are transferable and relevant to both fields of work. What I may lack in Web Design work experience, I make up for in my ability to analyze a client’s needs, respond to ever-changing situations and keep clients happy in the process. I am devoted to becoming the best Web Designer I can be.
             </p>
 
-            <a href="https://drive.google.com/file/d/1fO-yFbp0v9N1611nk4rxw1zoYp_w1jmg/view?usp=sharing" target="_blank">Link to my resume</a>
+            <a href="https://www.clinton-gorda.com/wp-content/uploads/2023/04/clintongorda-resume.pdf" target="_blank">Link to my resume</a>
 
             <a href="https://github.com/cjewett1" target="_blank">Link to my GitHub</a>
 

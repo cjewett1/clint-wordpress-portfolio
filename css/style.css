@@ -293,6 +293,18 @@ header .header-background {
   margin: 0 auto;
 }
 
+header li {
+  margin-bottom: 0rem;
+}
+
+a:hover {
+  color: #178F45;
+}
+
+ul#primary-menu a:hover {
+  color: #178F45;
+}
+
 .menu-home-page-menu-container {
   margin-top: 1rem;
 }
@@ -682,9 +694,13 @@ svg#Layer_1 {
     min-width: auto;
   }
   .page-id-6 .project-flex-item.active {
-    flex-grow: 5;
+    flex-grow: 4;
   }
 }
+.postid-204 img.project-img {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .page-id-6 .project-flex-container {
     overflow: auto;
@@ -834,6 +850,7 @@ svg#Layer_1 {
   align-items: center;
   margin: 0 auto;
   height: auto;
+  padding: 3rem;
   text-align: center;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }

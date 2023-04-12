@@ -58,10 +58,10 @@ get_header();
 
                 <div class="extra-image">
                     <?php
-                        $image = get_field('extra_image');
+                        $image = get_field('extra_images');
                         ?>
                         <?php if( !empty( $image ) ): ?>
-                                <img src="<?php echo esc_url($image['sizes']['project-single-size']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="project-img">
+                                <img src="<?php echo esc_url($image['sizes']['full-page']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="extra-img">
                         <?php endif ?>
                 </div>
             </div>

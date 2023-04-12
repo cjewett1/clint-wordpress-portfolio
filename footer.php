@@ -36,6 +36,7 @@
 						<?php dynamic_sidebar( 'sidebar-1' ); ?>
 					</a>
 				</div>
+				<div><p>Site Designed and Developed by: Clinton Gorda</p></div>
 	</footer>
 </div><!-- #page -->
 

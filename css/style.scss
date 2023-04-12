@@ -274,8 +274,12 @@ svg#Layer_1{
 	}
 
 	.page-id-6 .project-flex-item.active{
-		flex-grow: 5;
+		flex-grow: 4;
 	}
+}
+
+.postid-204 img.project-img {
+    display: none;
 }
 
 @media (max-width: 600px) {
@@ -436,6 +440,7 @@ svg#Layer_1{
 	background: #f5f5f5;
     @include mixins.basic-flex-center;
 	height: auto;
+    padding: 3rem;
 	text-align: center;
 	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
@@ -462,6 +467,8 @@ svg#Layer_1{
 	padding: 2rem 2.5rem;
 	box-shadow: rgb(0 0 0 / 15%) 0px 3px 3px 0px;
 }
+
+
 
 li {
 	margin-bottom: 1rem;

@@ -288,6 +288,8 @@ add_image_size('project-single-size', 650, 800, array('left', 'top') );
 
 add_image_size('project-size', 400, 600, array('left', 'top') );
 
+add_image_size('full-page', 650, 1300, array('left', 'top') );
+
 
 
 ?>

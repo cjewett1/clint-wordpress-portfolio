@@ -1,4 +1,4 @@
-@use 'assets/colors';
+@use 'assets/colors' as *;
 @use 'assets/mixins';
 
 header {
@@ -14,6 +14,18 @@ header {
     }
 }
 
+header li{
+    margin-bottom: 0rem;
+}
+
+a:hover{
+    color: $green;
+}
+
+ul#primary-menu a:hover{
+    color: $green;
+}
+
 .menu-home-page-menu-container{
     margin-top: 1rem;
 }
@@ -27,8 +39,6 @@ ul.sub-menu a{
     padding-bottom: 1rem;
     padding-left: .5rem;
 }
-
-
 
 body .is-layout-flex{
     flex-wrap: nowrap;
