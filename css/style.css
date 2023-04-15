@@ -452,6 +452,10 @@ footer h3 a {
     min-height: 3.5rem;
   }
 }
+body {
+  background-color: #322B2B;
+}
+
 /*!
 Theme Name: clinton-gorda-theme
 Theme URI: http://underscores.me/
@@ -604,6 +608,63 @@ svg#Layer_1 {
   text-align: center;
 }
 
+@media (min-width: 800px) {
+  .mobile-swipe h4 {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+}
+.mobile-swipe {
+  display: flex;
+  justify-content: center;
+  color: #a7a6ab;
+  background-color: #1E1D22;
+  gap: 3rem;
+  align-items: center;
+}
+
+.arrow {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-bottom: 5px solid #a7a6ab;
+  border-right: 5px solid #a7a6ab;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/

@@ -94,6 +94,15 @@ get_header();
             <h2>Recent Projects</h2>
         </div>
 
+        <div class="mobile-swipe">
+            <h4>Swipe right to view projects!</h4>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
         <div class="project-background">
             <div class="project-flex-container">
                 <?php
@@ -110,5 +119,7 @@ get_header();
                 <?php wp_reset_query() ?>
             </div>
         </div>
+
+
 
 <?php get_footer();
