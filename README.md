@@ -6,7 +6,7 @@ Welcome to the repo for my WordPress portfolio site! I wanted to use this readme
 ## Why did I make this project? Why did I use WordPress?
 I created this site for a couple of reasons. I wanted an aesthetically pleasing website that I could add all of my projects to. The way its set up right now allows me to easily add new projects to the site. It features my color scheme and is a good representation of how I like to style things.
 
-I wanted to practice with WordPress as well. I took a WordPress course in the Fall of 2022, so i wanted to keep my skills with it fairly sharp. This ended up being a great idea as my capstone project for school ended up being done in WordPress. I feel fairly confident in my development abilities using this powerful CMS. Next up is attemping to create a headless CMS using Strapi and React.
+I wanted to practice with WordPress as well. I took a WordPress course in the Fall of 2022, so i wanted to keep my skills with it fairly sharp. This ended up being a great idea as my capstone project for school ended up being done in WordPress. I feel fairly confident in my development abilities using this powerful CMS. My site features minimal plugins to improve its speed and usability. I only add plugins when absolutely necessaary, I like to try and figure it out myself first! 😄
 
 ## Project Status
 The site is near completion. There are some small things to optimize (mainly my scss files) but other than that I am fairly happy with the state of it. I will continue to work on this over time and update it.
