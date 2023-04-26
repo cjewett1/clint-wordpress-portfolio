@@ -1,4 +1,4 @@
-@use 'assets/colors';
+@use 'assets/colors' as *;
 @use 'assets/mixins';
 
 footer {
@@ -82,3 +82,11 @@ body {
   background-color: #322B2B;
 }
 
+.footer-info a{
+  text-decoration: none;
+  color: #a7a6ab;
+}
+
+.footer-info a:hover{
+  color: $green;
+}

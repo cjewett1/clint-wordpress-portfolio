@@ -456,6 +456,15 @@ body {
   background-color: #322B2B;
 }
 
+.footer-info a {
+  text-decoration: none;
+  color: #a7a6ab;
+}
+
+.footer-info a:hover {
+  color: #178F45;
+}
+
 /*!
 Theme Name: clinton-gorda-theme
 Theme URI: http://underscores.me/
@@ -570,7 +579,7 @@ table {
   background-attachment: fixed;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1100px) {
   .skills-section .skills-items {
     display: flex;
     justify-content: space-between;

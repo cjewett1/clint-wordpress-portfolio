@@ -129,7 +129,7 @@ table {
     background-attachment: fixed;
 }
 
-@include mixins.break(small){
+@include mixins.break(wide){
 
     .skills-section{
 

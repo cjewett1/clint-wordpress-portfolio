@@ -20,7 +20,7 @@ get_header();
 
                 <div class="banner-image">
                 <?php if( get_field('banner_image') ): ?>
-                    <img src="<?php the_field('banner_image'); ?>" />
+                    <img alt="Clinton Gorda" src="<?php the_field('banner_image'); ?>"  />
                 <?php endif; ?>
                 </div>
         </div>
@@ -30,7 +30,7 @@ get_header();
             <h2>My Skill Set</h2>
             <div class="skills-items">
                 <div class="skill">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75"
+                    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75"
                     viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
                     <style type="text/css">.st0{fill:#212025;}</style>
                     <path class="st0" d="M0,400c0-0.2,0-0.4,0-0.6c0-58.8,12.8-114.6,35.9-164.7l-1,2.5l190.9,522.7C157.6,726.6,102,676.7,62.9,615.3
@@ -61,7 +61,7 @@ get_header();
                 </p>
                 </div>
                 <div class="skill">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75"
+                    <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75"
                     viewBox="0 0 800 592" style="enable-background:new 0 0 800 592;" xml:space="preserve">
                     <path d="M492.7,1.1C485,1.8,477,2.4,469.3,3.4c-32.9,3.7-64.8,13.1-94.4,27.8c-30.5,14.9-58.2,35-82,59.2c-1,1.3-3,2-4.7,1.7
                     c-16.5-2.5-33.2-3.2-49.9-2.3c-34,1.7-67.3,10.3-97.7,25.4C81.7,144.7,40.2,190.6,16.1,252.2C7.3,275,2.1,299,0.7,323.5
